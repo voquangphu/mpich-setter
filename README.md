@@ -47,3 +47,6 @@ is aborted if the appropriate compiler cannot be found and configured.
 or
 
 ```bash file_to_run```
+
+## References
+For more information, please read [my blog](http://voquangphu.org.uk/blog-single/tech/17-1-1.html)
