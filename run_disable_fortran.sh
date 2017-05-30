@@ -1,4 +1,4 @@
-pathfile="path"
+pathfile="conf/path"
 while IFS= read -r line
 do
   path=$line
@@ -7,9 +7,9 @@ echo $path
 
 path=${path%/} // remove trailing slash if there is
 
-hosts="hosts"
+hosts="conf/hosts"
 while IFS= read -r line
 do
   echo "$line"
-  ssh $line "bash -s" < script_disable_fortran.sh $path
+  ssh $line "bash -s" < script/script_disable_fortran.sh $path
 done < "$hosts"
