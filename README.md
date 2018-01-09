@@ -49,4 +49,4 @@ or
 ```bash file_to_run```
 
 ## References
-For more information, please read [my blog](http://voquangphu.org.uk/blog-single/tech/17-1-1.html)
+For more information, please read [my blog](http://voquangphu.org.uk/blog-single/tech/17-01-1.html)
